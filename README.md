@@ -67,6 +67,11 @@ def predict_and_visualize(image_path):
     plt.show()
 predict_and_visualize("./test/24870.jpg")  // test images in the test folder
 
+
+## Model Files
+--Download the model file from the drive link below.
+#Link = https://drive.google.com/file/d/1fQZfwVnRFEr2_j2QwgtfDTYUr1oSUjzS/view?usp=drive_link
+--Place the downloaded model file in the photoshop-region-detection folder
 ## train.ipynb
 --With this file, train.ipynb, you can develop your own Photoshop detector model by training the u-net model with the data set you want.
 
