@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from tensorflow.keras.models import load_model
 
-model = load_model("./model/unet_best.h5", compile=False)
+model = load_model("unet_best.h5", compile=False)
 
 IMG_HEIGHT, IMG_WIDTH = 256, 256
 
@@ -42,4 +42,5 @@ def predict_and_visualize(image_path):
     plt.axis("off")
 
     plt.show()
-predict_and_visualize("./test/24870.jpg")
+
+predict_and_visualize("24870.jpg")
